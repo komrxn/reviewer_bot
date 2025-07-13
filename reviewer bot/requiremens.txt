@@ -1,0 +1,2 @@
+aiogram>=2.25,<3.0
+requests>=2.28
