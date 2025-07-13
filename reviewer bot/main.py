@@ -18,7 +18,7 @@ BOT_IPS = {
 ENDPOINTS = [f"{ip}/redis-alt.json" for ip in BOT_IPS]
 
 MAX_LEN = 3500
-FINISH_TIMEOUT = 60 * 30  # 30 минут разрыв
+FINISH_TIMEOUT = 60 * 10  # 30 минут разрыв
 
 chat_sessions = {}  # (base_url, chat_id) -> list of sessions [{messages, start, end, sent}]
 time_started = int(time.time())
